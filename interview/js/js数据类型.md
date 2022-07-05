@@ -43,6 +43,11 @@
     console.log(a.call({}));
     console.log(a.call(undefined));
     console.log(a.call(null));
+    
+    function judgeType(item){
+        const a=Object.prototype.toString
+        return a.call(item).slice(8,-1)
+    }
     ```
 
 #### 数据类型的转换
@@ -206,4 +211,106 @@
     - null 的值是机器码 NULL 指针(null 指针的值全是 0)
 
     那也就是说null的类型标签也是000，和Object的类型标签一样，所以会被判定为Object。
+
+- 判断数组和对象是否为空
+
+  - ```js
+    //对象判断是否为空
+    function ObjectIsNull(obj){
+        if(typeof obj !== "object") throw new Error('传入的参数必须是对象')
+        let flag=true
+        const arr=Object.keys(obj)
+        if(arr.length>0)
+            flag=false
+        return flag
+            
+    }
+    
+    //判断数组是否为空
+    function arrayIsNull(arr){
+        if(!(arr instanceof Array)) throw new Error('传入的参数必须是数组')
+        let flag=true
+        if(arr.length>0)
+            flag=false
+        return flag
+    }
+    ```
+
+#### 各种数据类型之间的重点
+
+##### 数组类型
+
+###### 题目
+
+[数组的创建方式](#数组的创建方式)	
+
+[判断类型是否是数组](#判断类型是否是数组)
+
+###### 解答
+
+- ### 数组的创建方式
+
+  - 使用字面量的方式  最常用 `let arr=[]`
+  - 使用数组的构造函数    `let arr=new Array()`   实例化类
+  - 定义的时候直接实例化  `let arr=new Array(item1,item2)`
+  - 实例化数组的时候 定义数组的长度  `let arr=new Array(3)`
+
+- ### 判断类型是否是数组
+
+  - `Object.prototype.toString.call()` //`[object Array]`
+  - `arr.instanceof(Array)`
+  - `arr.constructor==Array`  这个Array是window的属性
+  - `Array.isArray()`
+
+- ### 数组的深浅拷贝
+
+  - 浅拷贝  回改变原数组 拷贝的只是引用
+
+    - 直接将数组A重新赋值给数组B
+
+  -  深拷贝 不会改变原数组
+
+    - ```js
+      //循环实现深拷贝
+      var arr1 = [1, 2, 3];
+        var arr2 = [];
+        for (var i = 0; i < arr1.length; i++) {
+           arr2.push(arr1[i]);
+       }
+       arr1[0] = 4;
+       console.log(arr1); //4, 2, 3
+       console.log(arr2); //1, 2, 3
+      //concat() 数组连接  返回的是 连接后数组的一个副本 新数组
+      arrayObj.concat() 方法用于连接两个或多个数组。该方法不会改变现有的数组，而仅仅会返回被连接数组的一个副本。
+      var arr1 = [1, 2, 3];
+      var arr2 = arr1.concat();
+      arr1[0] = 4;
+      console.log(arr1); //4, 2, 3
+      console.log(arr2); //1, 2, 3
+      //slice	
+       // arrayObj.slice(start, [end]) 第第二个参数是下表
+       //该方法返回一个 Array 对象，其中包含了 arrayObj 的指定部分。不会改变原数组 
+      var arr1 = [1, 2, 3];
+      var arr2 = arr1.slice(0);
+      arr1[0] = 4;
+      console.log(arr1); //4, 2, 3
+      console.log(arr2); //1, 2, 3
+      
+      ```
+
+      
+
+- ### 常用的方法
+
+  - 截取   slice substr substring
+    - slice 和 substring  （start,end[可选]）
+      - start   从第几个字符开始
+      - end    结束位置下一个位置
+      - slice(0) 返回整个字符串 从0开始到最后一个字符
+      - slice的end是负值 需要加上字符串长度转换为正值
+      - substring() 是较大较小值之间的差值1  遇到负数回将它转为正的
+    - substr  (start,length)
+      - start 开始位置的下标
+      - 截取的长度
+      - length不写也是默认截取到最后一个字符
 
