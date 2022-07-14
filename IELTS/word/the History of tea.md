@@ -1,0 +1,61 @@
+- renowned
+  - *a person or a place* that *is renowned for* something, usually something good, **is well known** because of it
+- herbalist
+  - a herbalist is **a person** who grows or sells herbs that are used in medicine.
+  - herbs
+    - a herb is **a plant** whose leaves are used in cooking to add flavour to food, or as a medicine.
+  - flavour
+    - t*he flavour of a food or drink* is its **taste**
+    - if something is *orange flavour or beef flavour*, it is made to **taste of orange or beef**.
+    - if you *flavour food or drink*, you **add something to it to give it particular taste**.
+- infusion
+  - if there is *an infusion of one thing* into another, the first thing is **added to the other thing and makes it stronger or better**. 
+  - a tremendous infusion of hope
+- established
+  - if you use established to describe something such as an *organization*, you mean that **it well known because it has existed for a long time**.
+- tomb
+  - a tomb is a **grave**, especially one that is above ground and that usually has a sculpture or other decoration on it.
+  - grave
+    - a grave is a place where **a dead person is buried**.
+      - visit one's grave
+    - *a grave event or situation*  is very **serious, important, and worrying**.
+      - gravely 
+        - They had gravely impaired the credibility  of the government.
+    - *a grave person* is **quiet and serious** in their appearance or behaviour.
+      - gravely
+        - he said  gravely
+    - *turn over in one's grave at something* that is happening now, you  mean that **they would be very shocked or upset by it, if they were alive**.
+    - cut, carve, sculpt, or engrave
+  - sculpture 
+    - a sculpture is **a work of art** that is produced by carving or shaping stone, wood, clay, or other materials.
+    - sculpture is the art of creating sculpture.
+- Han Dynasty
+- national drinking
+  - National means **typical** of the people or customs of a particular country or nation. 
+- shortly after
+  - she died shortly after giving birth.
+- buddhist
+  - a buddhist is a person whose religion is Buddhism.
+  - buddhist means relating to referring to Buddhism.
+- monk
+  - a monk is a member of a male religious community that is usually separated from the outside world.
+- receive almost instant imperial sponsorship
+  - instant 
+    - an instant is an extremely short period of time.
+    - at a particular instant,you mean that it happened at exactly the time you have been referring to, and you are usually suggesting that it happens quickly or immediately.
+    - to do something instant something else happens means to do it immediately.
+      - I bolted the door the instant I saw the bat.
+    - use instant to describe something that happens immediately.
+      - a book was an instant hit.
+      - the man was killed instantly
+    - instant food is food that you can prepare very quickly, for example, by just adding water.
+      - instant coffee
+  - imperial 
+    - a imperial is used to refer to things or people that are or were connected with empire.
+    - the imperial system of measurement uses inches, feet  ,yards and miles to measure length, ounces and pounds to measure weight, and pints, quarts and gallons to measure volume.
+  - sponsorship
+    - sponsorship is financial support given by a sponsor.
+- monastery
+  - a monastery is a building or collection of buildings in which monks live.
+    - A **collection** **of** things is a group of things.
+
